@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8953E06E0639EF295D7C8583 /* Pods_XPQrCode_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10093DDFE5E059FC6CA9BFCB /* Pods_XPQrCode_Example.framework */; };
+		FB2D76A42188595B0033BF1F /* rage.png in Resources */ = {isa = PBXBuildFile; fileRef = FB2D76A32188595B0033BF1F /* rage.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,10 +43,11 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		734679A903670FC83A420BD1 /* Pods-XPQrCode_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPQrCode_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPQrCode_Tests/Pods-XPQrCode_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9DC696E1B5C8D8F5F889DB53 /* Pods_XPQrCode_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPQrCode_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9FED89103CC0C24C733B9E8B /* XPQrCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XPQrCode.podspec; path = ../XPQrCode.podspec; sourceTree = "<group>"; };
-		A5A2A4DE9DF72361FEED9B48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C0C5A3905248C94CB440BE8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		9FED89103CC0C24C733B9E8B /* XPQrCode.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XPQrCode.podspec; path = ../XPQrCode.podspec; sourceTree = "<group>"; };
+		A5A2A4DE9DF72361FEED9B48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C0C5A3905248C94CB440BE8F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DEA5AAAC6B3F03A73FC2B79A /* Pods-XPQrCode_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPQrCode_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-XPQrCode_Example/Pods-XPQrCode_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FB2D76A32188595B0033BF1F /* rage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rage.png; sourceTree = "<group>"; };
 		FC99F1FA378FF04E02D7B815 /* Pods-XPQrCode_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPQrCode_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XPQrCode_Example/Pods-XPQrCode_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -113,6 +115,7 @@
 		607FACD21AFB9204008FA782 /* Example for XPQrCode */ = {
 			isa = PBXGroup;
 			children = (
+				FB2D76A32188595B0033BF1F /* rage.png */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -247,6 +250,7 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				FB2D76A42188595B0033BF1F /* rage.png in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
