@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'XPQrCode_Example' do
+  pod 'XPQrCode', :path => '../'
+
+  target 'XPQrCode_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
